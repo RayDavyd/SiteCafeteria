@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COFFEINC</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=JetBrains+Mono:wght@400;800&family=Orbitron:wght@400..900&display=swap" rel="stylesheet" />
+  
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+  <header class="header">
+    <section id="menu">
+      
+      <a href="#" class="logo-coffeinc" aria-label="CoffeInc Home">
+        <span class="simbolo">&lt; &gt;</span>
+        <span class="nome">COFFEINC</span>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" />
+
+      <label for="menu-toggle" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#home">Sobre</a> <a href="#Cardápio">Cardápio</a>
+        <a href="#Estrutura">Infraestrutura</a>
+        <a href="#Contato">Contato</a>
+      </nav>
+    </section>
+  </header>
+
+  <div class="home-container">
+    <section id="home"> <div class="content">
+        <h3>O QG da Comunidade Tech: <br />Café, Código e Conexão.</h3>
+        <p>
+          Um espaço pensado para devs: internet de alta velocidade, ambiente
+          focado e o combustível necessário para compilar suas ideias.
+        </p>
+
+        <div class="buttons">
+          <a href="#Estrutura" id="btn-Infra">Explore o Espaço</a>
+          <a href="#Cardápio" id="btn-Card">Veja o Cardápio</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="Coffeinc">
+    <section id="Estrutura">
+      <div>
+        <h2 id="infor">Por que COFFEINC?</h2>
+        
+        <div class="cards">
+          <div class="card">
+            <div class="icon">
+              <img src="wi-fi.png" alt="sinal-wifi" id="wifi">
+            </div>
+            <h3 class="info-icon">Wi-Fi Blindado</h3>
+            <p>
+              Internet de alta velocidade garantida para deployments, calls e downloads pesados.
+            </p>
+          </div>
+          
+          <div class="card">
+            <div class="icon">
+              <img src="raio.png" alt="raio" id="raio">
+            </div>
+            <h3 class="info-icon">Infraestrutura Tech</h3>
+            <p>Tomadas em todas as mesas, carregadores disponíveis e salas de reunião equipadas.</p>
+          </div>
+          
+          <div class="card">
+            <div class="icon">
+              <img src="trabalhador-autonomo.png" alt="trabalhador-autonomo" id="trabalhador-autonomo">
+            </div>
+            <h3 class="info-icon">Ambiente Dev-Friendly</h3>
+            <p>Espaço que entende a cultura tech e respeita seu fluxo de trabalho.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="debugar" id="Cardápio"> <section>
+      <h2>Pronto para debugar com um café premium?</h2>
+      <p>Faça seu pedido online e retire no balcão.</p>
+      <div class="buttons">
+        <a href="#" id="btn-pedidos">
+          <img src="carrinho.png" alt="carrinho de compra">
+          Fazer Pedido
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <footer class="rodape" id="Contato"> <div class="rodape-container">
+      <div class="rodape-coluna">
+        <h3><span class="simbolo">&lt; &gt;</span> COFFEINC</h3>
+        <p>O QG da comunidade tech. Café, código e conexão.</p>
+      </div>
+
+      <div class="rodape-coluna">
+        <h4>Links Rápidos</h4>
+        <a href="#">Home</a>
+        <a href="#">Cardápio</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+      </div>
+
+      <div class="rodape-coluna">
+        <h4>Contato</h4>
+        <p>(11) 9999-8888</p>
+        <p>contato@coffeinc.com.br</p>
+        <p>Av. Tech Valley, 1024</p>
+      </div>
+    </div>
+
+    <div class="rodape-copy">
+      © 2026 Coffeinc. Desenvolvido por Ray Davyd, Pedro Henrique, Arley Felix e Luan Ribeiro.
+    </div>
+  </footer>
+
+</body>
+</html>
