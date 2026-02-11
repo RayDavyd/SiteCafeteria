@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COFFEINC</title>
     <link rel="stylesheet" href="style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +16,7 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   </head>
 
-  <body>
+  <body id="body-sobre">
     <header class="header">
       <section id="menu">
         <a href="#" class="logo-coffeinc" aria-label="CoffeInc Home">
@@ -40,84 +41,56 @@
         </nav>
       </section>
     </header>
+    <section class="sobre">
+      <h2>Sobre Nós</h2>
+      <p>A História do COFFEINC</p>
+    </section>
+    <div class="sobre-cards">
+      <div class="card-problema">
+        <h3>O Problema</h3>
+        <p>
+          A comunidade tech carece de ambientes que compreendam suas
+          necessidades específicas: infraestrutura confiável, internet de alta
+          velocidade, tomadas, silêncio e uma cultura que fale sua "língua".
+        </p>
+      </div>
+      <div class="card-problema">
+        <h3>A Solução</h3>
+        <p>
+          Um ambiente otimizado para a produtividade e networking da comunidade
+          de T.I., oferecendo cardápio premium, infraestrutura de ponta e uma
+          identidade visual que reforça a conexão imediata.
+        </p>
+      </div>
 
-    <div class="home-container">
-      <section id="home">
-        <div class="content">
-          <h3>O QG da Comunidade Tech: <br />Café, Código e Conexão.</h3>
-          <p>
-            Um espaço pensado para devs: internet de alta velocidade, ambiente
-            focado e o combustível necessário para compilar suas ideias.
-          </p>
+      <div class="card-problema">
+        <h3 id="equipe">Equipe de Desenvolvimento</h3>
 
-          <div class="buttons">
-            <a href="infraestrutura.html" id="btn-Infra">Explore o Espaço</a>
-            <a href="cardapio.html" id="btn-Card">Veja o Cardápio</a>
+        <div class="grid-membros">
+          <div class="membro">
+            <div class="avatar-bola">RD</div>
+            <p>Ray Davyd</p>
+          </div>
+
+          <div class="membro">
+            <div class="avatar-bola">PH</div>
+            <p>Pedro Henrique</p>
+          </div>
+
+          <div class="membro">
+            <div class="avatar-bola">AF</div>
+            <p>Arley Felix</p>
+          </div>
+
+          <div class="membro">
+            <div class="avatar-bola">LR</div>
+            <p>Luan Ribeiro</p>
           </div>
         </div>
-      </section>
+      </div>
     </div>
 
-    <div class="Coffeinc">
-      <section id="Estrutura">
-        <div>
-          <h2 id="infor">Por que COFFEINC?</h2>
-
-          <div class="cards">
-            <div class="card">
-              <div class="icon">
-                <img src="wi-fi.png" alt="sinal-wifi" id="wifi" />
-              </div>
-              <h3 class="info-icon">Wi-Fi Blindado</h3>
-              <p>
-                Internet de alta velocidade garantida para deployments, calls e
-                downloads pesados.
-              </p>
-            </div>
-
-            <div class="card">
-              <div class="icon">
-                <img src="raio.png" alt="raio" id="raio" />
-              </div>
-              <h3 class="info-icon">Infraestrutura Tech</h3>
-              <p>
-                Tomadas em todas as mesas, carregadores disponíveis e salas de
-                reunião equipadas.
-              </p>
-            </div>
-
-            <div class="card">
-              <div class="icon">
-                <img
-                  src="trabalhador-autonomo.png"
-                  alt="trabalhador-autonomo"
-                  id="trabalhador-autonomo"
-                />
-              </div>
-              <h3 class="info-icon">Ambiente Dev-Friendly</h3>
-              <p>
-                Espaço que entende a cultura tech e respeita seu fluxo de
-                trabalho.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <div class="debugar" id="Cardápio">
-      <section>
-        <h2>Pronto para debugar com um café premium?</h2>
-        <p>Confira nossas opções aqui e faça seu pedido diretamente no balcão.</p>
-        <div class="buttons">
-          <a href="cardapio.html" id="btn-pedidos">
-            Cardápio
-          </a>
-        </div>
-      </section>
-    </div>
-
-    <footer class="rodape" id="Contato">
+     <footer class="rodape" id="Contato">
       <div class="rodape-container">
         <div class="rodape-coluna">
           <h3><span class="simbolo">&lt; &gt;</span> COFFEINC</h3>
