@@ -23,6 +23,8 @@ Este repositório contém o projeto prático desenvolvido para a disciplina de *
 - `contato.html`: Formulário e localização (Sousa-PB).
 - `style.css`: Folha de estilo centralizada.
 
+- LINK: https://raydavyd.github.io/SiteCafeteria/
+
 ## 👥 Equipe
 - **Ray Davyd**
 - **Pedro Henrique**
