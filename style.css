@@ -787,7 +787,7 @@
         transform: translateY(-9px) rotate(-45deg);
     }
     .grade-superior {
-        grid-template-columns: 1fr; /* Fica um embaixo do outro no celular */
+        grid-template-columns: 1fr; 
     }
 
    
@@ -809,6 +809,14 @@
         max-width: 400px;
         margin: 0 auto;
     }
+    .infra-topo h1 {
+        font-size: 2rem; 
+        overflow-wrap: break-word; 
+    }
+    .infra-topo p{
+        font-size: 1.2rem;
+    }
+    
 }
 
 @media (max-width: 480px) {
@@ -822,6 +830,4 @@
     
     #infor { font-size: 2.2rem; }
 }
-
-
 
