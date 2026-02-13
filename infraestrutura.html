@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=JetBrains+Mono:wght@400;800&family=Orbitron:wght@400..900&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
     <title>COFFEINC</title>
   </head>
   <body>
@@ -49,7 +48,7 @@
       <div class="infra-grid">
         <div class="cartao-infra">
           <div class="icon">
-            <img src="wi-fi.png" alt="wifi" />
+            <img src="img/wi-fi.png" alt="wifi" />
           </div>
           <h3>Wi-Fi Rápido</h3>
           <ul>
@@ -61,7 +60,7 @@
 
         <div class="cartao-infra">
           <div class="icon">
-            <img src="raio.png" alt="raio" />
+            <img src="img/raio.png" alt="raio" />
           </div>
           <h3>Energia Garantida</h3>
           <ul>
@@ -75,23 +74,73 @@
       <h2 style="text-align: center; margin: 40px 0">Salas Disponíveis</h2>
 
       <div class="infra-grid">
-        <div class="cartao">
-          <img src="sala-publica.jpg" alt="Sala Pública" class="foto-infra" />
+        <div class="cartao menu-card">
+          <input type="checkbox" id="sala-1" class="modal-toggle" />
+
+          <div class="modal-overlay">
+            <div class="modal-content">
+              <label for="sala-1" class="modal-close-area"></label>
+              <span class="modal-close-btn"
+                ><label for="sala-1">&times;</label></span
+              >
+
+              <h3 class="modal-title">Sala Pública</h3>
+              <p class="modal-desc">Espaço perfeito para networking.</p>
+              <p class="modal-detail">
+                <strong>Capacidade:</strong> 40 pessoas
+              </p>
+              <p class="modal-detail"><strong>Tomadas:</strong> Individuais</p>
+              <span class="modal-price">Grátis</span>
+            </div>
+          </div>
+
+          <img
+            src="img/sala-publica.jpg"
+            alt="Sala Pública"
+            class="foto-infra"
+          />
+
           <div class="texto-cartao">
             <h3>Sala Pública</h3>
             <p>Ambiente aberto e compartilhado</p>
             <p class="preco-verde">Gratuito</p>
-            <button class="botao-preto">Ver Disponibilidade</button>
+            <label for="sala-1" class="botao-preto">Ver Disponibilidade</label>
           </div>
         </div>
 
-        <div class="cartao">
-          <img src="sala-privada.jpg" alt="Sala Privada" class="foto-infra" />
+        <div class="cartao menu-card">
+          <input type="checkbox" id="sala-2" class="modal-toggle" />
+
+          <div class="modal-overlay">
+            <div class="modal-content">
+              <label for="sala-2" class="modal-close-area"></label>
+              <span class="modal-close-btn"
+                ><label for="sala-2">&times;</label></span
+              >
+
+              <h3 class="modal-title">Sala Privada</h3>
+              <p class="modal-desc">Sala acústica com TV 4K.</p>
+              <p class="modal-detail"><strong>Capacidade:</strong> 6 pessoas</p>
+              <p class="modal-detail"><strong>Privacidade:</strong> Total</p>
+              <span class="modal-price">R$ 29,99/h</span>
+
+              <a href="contato.html" class="modal-cta"
+                >Para agendar, fale conosco</a
+              >
+            </div>
+          </div>
+
+          <img
+            src="img/sala-privada.jpg"
+            alt="Sala Privada"
+            class="foto-infra"
+          />
+
           <div class="texto-cartao">
             <h3>Sala Privada</h3>
             <p>Para reuniões focadas</p>
             <p class="preco-laranja">R$ 29,99/hora</p>
-            <button class="botao-laranja">Reservar Agora</button>
+            <label for="sala-2" class="botao-laranja">Reservar Agora</label>
           </div>
         </div>
       </div>
@@ -117,7 +166,7 @@
           <h4>Contato</h4>
           <p>(11) 9999-8888</p>
           <p>contato@coffeinc.com.br</p>
-          <p>Matumbo, Sousa-PB, 18</p>
+          <p>Rua dos Servidores, nº 404, <br />Bairro Low-Latency</p>
         </div>
       </div>
 

@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=JetBrains+Mono:wght@400;800&family=Orbitron:wght@400..900&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
     <title>COFFEINC</title>
   </head>
   <body>
@@ -45,29 +44,82 @@
 
       <div class="menu-grid">
         <div class="menu-card">
-          <img src="espresso.jpg" alt="Espresso" class="card-img" />
+          <img src="img/espresso.jpg" alt="Expresso" class="card-img" />
           <div class="card-info">
             <h4>Expresso</h4>
             <p class="preco">R$ 6,00</p>
-            <button class="btn-ver-mais">Ver Mais</button>
+
+            <label for="modal-expresso" class="btn-ver-mais">Ver Mais</label>
+
+            <input type="checkbox" id="modal-expresso" class="modal-toggle" />
+            <div class="modal-overlay">
+              <label for="modal-expresso" class="modal-close-area"></label>
+              <div class="modal-content">
+                <label for="modal-expresso" class="modal-close-btn"
+                  >&times;</label
+                >
+                <h3 class="modal-title">Expresso</h3>
+                <p class="modal-desc">
+                  Café curto e intenso, ideal para dar energia.
+                </p>
+                <p class="modal-detail"><strong>Tamanho:</strong> 30ml</p>
+                <p class="modal-detail"><strong>Calorias:</strong> 5 kcal</p>
+
+                <p class="modal-price">R$ 6,00</p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="menu-card">
-          <img src="cappuccino.jpg" alt="Cappuccino" class="card-img" />
+          <img src="img/cappuccino.jpg" alt="Cappuccino" class="card-img" />
           <div class="card-info">
             <h4>Cappuccino</h4>
             <p class="preco">R$ 9,00</p>
-            <button class="btn-ver-mais">Ver Mais</button>
+
+            <label for="modal-cappuccino" class="btn-ver-mais">Ver Mais</label>
+
+            <input type="checkbox" id="modal-cappuccino" class="modal-toggle" />
+            <div class="modal-overlay">
+              <label for="modal-cappuccino" class="modal-close-area"></label>
+              <div class="modal-content">
+                <label for="modal-cappuccino" class="modal-close-btn"
+                  >&times;</label
+                >
+                <h3 class="modal-title">Cappuccino</h3>
+                <p class="modal-desc">
+                  Expresso, leite vaporizado e espuma cremosa.
+                </p>
+                <p class="modal-detail"><strong>Tamanho:</strong> 150ml</p>
+                <p class="modal-detail"><strong>Calorias:</strong> 120 kcal</p>
+                <p class="modal-price">R$ 9,00</p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="menu-card">
-          <img src="foto-latte.jpg" alt="Latte" class="card-img" />
+          <img src="img/foto-latte.jpg" alt="Latte" class="card-img" />
           <div class="card-info">
             <h4>Latte</h4>
             <p class="preco">R$ 8,50</p>
-            <button class="btn-ver-mais">Ver Mais</button>
+
+            <label for="modal-latte" class="btn-ver-mais">Ver Mais</label>
+
+            <input type="checkbox" id="modal-latte" class="modal-toggle" />
+            <div class="modal-overlay">
+              <label for="modal-latte" class="modal-close-area"></label>
+              <div class="modal-content">
+                <label for="modal-latte" class="modal-close-btn">&times;</label>
+                <h3 class="modal-title">Latte</h3>
+                <p class="modal-desc">
+                  Suave, com bastante leite e pouca espuma.
+                </p>
+                <p class="modal-detail"><strong>Tamanho:</strong> 200ml</p>
+                <p class="modal-detail"><strong>Calorias:</strong> 160 kcal</p>
+                <p class="modal-price">R$ 8,50</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -78,29 +130,81 @@
 
       <div class="menu-grid">
         <div class="menu-card">
-          <img src="croassaint.jpg" alt="Croissant" class="card-img" />
+          <img src="img/croassaint.jpg" alt="Croissant" class="card-img" />
           <div class="card-info">
             <h4>Croissant de Chocolate</h4>
             <p class="preco">R$ 12,00</p>
-            <button class="btn-ver-mais">Ver Mais</button>
+
+            <label for="modal-croissant" class="btn-ver-mais">Ver Mais</label>
+
+            <input type="checkbox" id="modal-croissant" class="modal-toggle" />
+            <div class="modal-overlay">
+              <label for="modal-croissant" class="modal-close-area"></label>
+              <div class="modal-content">
+                <label for="modal-croissant" class="modal-close-btn"
+                  >&times;</label
+                >
+                <h3 class="modal-title">Croissant de Chocolate</h3>
+                <p class="modal-desc">
+                  Massa folhada francesa com chocolate meio amargo.
+                </p>
+                <p class="modal-detail"><strong>Tamanho:</strong> 100g</p>
+                <p class="modal-detail"><strong>Calorias:</strong> 410 kcal</p>
+                <p class="preco">R$ 12,00</p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="menu-card">
-          <img src="brownie.jpg" alt="Brownie" class="card-img" />
+          <img src="img/brownie.jpg" alt="Brownie" class="card-img" />
           <div class="card-info">
             <h4>Brownie da Casa</h4>
             <p class="preco">R$ 8,00</p>
-            <button class="btn-ver-mais">Ver Mais</button>
+
+            <label for="modal-brownie" class="btn-ver-mais">Ver Mais</label>
+
+            <input type="checkbox" id="modal-brownie" class="modal-toggle" />
+            <div class="modal-overlay">
+              <label for="modal-brownie" class="modal-close-area"></label>
+              <div class="modal-content">
+                <label for="modal-brownie" class="modal-close-btn"
+                  >&times;</label
+                >
+                <h3 class="modal-title">Brownie da Casa</h3>
+                <p class="modal-desc">Denso, úmido e com casquinha crocante.</p>
+                <p class="modal-detail"><strong>Tamanho:</strong> 80g</p>
+                <p class="modal-detail"><strong>Calorias:</strong> 350 kcal</p>
+                <p class="modal-price">R$ 8,00</p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="menu-card">
-          <img src="cookie.jpg" alt="Cookie" class="card-img" />
+          <img src="img/cookie.jpg" alt="Cookie" class="card-img" />
           <div class="card-info">
             <h4>Cookie Americano</h4>
-            <p class="preco">R$ 6,00</p>
-            <button class="btn-ver-mais">Ver Mais</button>
+            <p class="preco">R$ 5,00</p>
+
+            <label for="modal-cookie" class="btn-ver-mais">Ver Mais</label>
+
+            <input type="checkbox" id="modal-cookie" class="modal-toggle" />
+            <div class="modal-overlay">
+              <label for="modal-cookie" class="modal-close-area"></label>
+              <div class="modal-content">
+                <label for="modal-cookie" class="modal-close-btn"
+                  >&times;</label
+                >
+                <h3 class="modal-title">Cookie Americano</h3>
+                <p class="modal-desc">
+                  Baunilha com gotas de chocolate ao leite.
+                </p>
+                <p class="modal-detail"><strong>Tamanho:</strong> 60g</p>
+                <p class="modal-detail"><strong>Calorias:</strong> 280 kcal</p>
+                <p class="preco">R$ 5,00</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -111,29 +215,83 @@
 
       <div class="menu-grid">
         <div class="menu-card">
-          <img src="sanduiche.jpg" alt="Sanduíche Natural" class="card-img" />
+          <img
+            src="img/sanduiche.jpg"
+            alt="Sanduíche Natural"
+            class="card-img"
+          />
           <div class="card-info">
             <h4>Sanduíche Natural</h4>
-            <p class="preco">R$ 14,00</p>
-            <button class="btn-ver-mais">Ver Mais</button>
+            <p class="preco">R$ 6,00</p>
+
+            <label for="modal-sanduiche" class="btn-ver-mais">Ver Mais</label>
+
+            <input type="checkbox" id="modal-sanduiche" class="modal-toggle" />
+            <div class="modal-overlay">
+              <label for="modal-sanduiche" class="modal-close-area"></label>
+              <div class="modal-content">
+                <label for="modal-sanduiche" class="modal-close-btn"
+                  >&times;</label
+                >
+                <h3 class="modal-title">Sanduíche Natural</h3>
+                <p class="modal-desc">
+                  Pão integral, frango, cenoura e maionese verde.
+                </p>
+                <p class="modal-detail"><strong>Tamanho:</strong> 200g</p>
+                <p class="modal-detail"><strong>Calorias:</strong> 320 kcal</p>
+                <p class="preco">R$ 6,00</p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="menu-card">
-          <img src="paodequeijo.jpg" alt="Pão de Queijo" class="card-img" />
+          <img src="img/paodequeijo.jpg" alt="Pão de Queijo" class="card-img" />
           <div class="card-info">
             <h4>Pão de Queijo (Porção)</h4>
             <p class="preco">R$ 9,50</p>
-            <button class="btn-ver-mais">Ver Mais</button>
+
+            <label for="modal-pao" class="btn-ver-mais">Ver Mais</label>
+
+            <input type="checkbox" id="modal-pao" class="modal-toggle" />
+            <div class="modal-overlay">
+              <label for="modal-pao" class="modal-close-area"></label>
+              <div class="modal-content">
+                <label for="modal-pao" class="modal-close-btn">&times;</label>
+                <h3 class="modal-title">Pão de Queijo</h3>
+                <p class="modal-desc">Porção com 6 unidades quentinhas.</p>
+                <p class="modal-detail"><strong>Porção:</strong> 6 unidades</p>
+                <p class="modal-detail"><strong>Calorias:</strong> 280 kcal</p>
+                <p class="modal-price">R$ 9,50</p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="menu-card">
-          <img src="coxinha.jpg" alt="Coxinha Gourmet" class="card-img" />
+          <img src="img/coxinha.jpg" alt="Coxinha Gourmet" class="card-img" />
           <div class="card-info">
             <h4>Coxinha Gourmet</h4>
             <p class="preco">R$ 7,00</p>
-            <button class="btn-ver-mais">Ver Mais</button>
+
+            <label for="modal-coxinha" class="btn-ver-mais">Ver Mais</label>
+
+            <input type="checkbox" id="modal-coxinha" class="modal-toggle" />
+            <div class="modal-overlay">
+              <label for="modal-coxinha" class="modal-close-area"></label>
+              <div class="modal-content">
+                <label for="modal-coxinha" class="modal-close-btn"
+                  >&times;</label
+                >
+                <h3 class="modal-title">Coxinha Gourmet</h3>
+                <p class="modal-desc">
+                  Massa de batata e recheio de frango com catupiry.
+                </p>
+                <p class="modal-detail"><strong>Tamanho:</strong> 150g</p>
+                <p class="modal-detail"><strong>Calorias:</strong> 460 kcal</p>
+                <p class="modal-price">R$ 7,00</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -159,7 +317,7 @@
           <h4>Contato</h4>
           <p>(11) 9999-8888</p>
           <p>contato@coffeinc.com.br</p>
-          <p>Matumbo, Sousa-PB, 18</p>
+          <p>Rua dos Servidores, nº 404, <br />Bairro Low-Latency</p>
         </div>
       </div>
 
